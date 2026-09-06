@@ -7,8 +7,8 @@
    ⚠️ CONFIG — replace these two with your own links
    (see ขั้นที่ 3 ในคู่มือ: Google Sheet + Apps Script)
    ------------------------------------------------------------ */
-const APPS_SCRIPT_URL = "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE";
-const ORDERS_CSV_URL  = "PASTE_YOUR_PUBLISHED_SHEET_CSV_LINK_HERE";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx-uekui9_YAJfxtR_8mYmRcyIVlHfIpjHWUGOYsqYJfL6itrKJ1dNOrM-pED7vNBl7xQ/exec";
+const ORDERS_CSV_URL  = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT8OMBcE0hYTLc-mKMMPkIvjupofVgsLRUFaZMSOpVQBEAqdpuW6qqRMdnr3O9DB10Bgx5VOIkHIXCz/pub?gid=0&single=true&output=csv";
 
 /* ------------------------------------------------------------
    Category metadata: badge color + icon reused everywhere
