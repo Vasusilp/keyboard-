@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — รายการคำสั่งซื้อ — Ckeyboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav wrap">
+    <a href="index.html" class="logo">C<span>key</span>board</a>
+    <div class="nav-links"></div>
+    <a href="index.html" class="nav-cta">กลับหน้าแรก</a>
+  </nav>
+</header>
+
+<div class="page-title wrap">
+  <h1>รายการคำสั่งซื้อ</h1>
+  <p>ดึงข้อมูลสดจาก Google Sheet ที่ publish เป็น CSV ไว้</p>
+</div>
+
+<section class="admin-section">
+  <div class="wrap">
+    <p class="admin-status" id="adminStatus">กำลังโหลด...</p>
+    <div class="admin-table-wrap">
+      <table class="admin-table">
+        <thead><tr id="adminHead"></tr></thead>
+        <tbody id="adminTable"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div>© <span id="year"></span> Ckeyboard. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
